@@ -1308,6 +1308,10 @@ footer{
 	font-size: 50px;
 }
 
+.carousel-inner > .item {
+	max-height: 600px !important;
+}
+
 @media screen and (max-width: 1095px) {
     .footer-adress-block {
     	width: 33.3333%;
