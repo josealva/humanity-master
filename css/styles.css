@@ -1308,7 +1308,7 @@ footer{
 	font-size: 50px;
 }
 
-.carousel-inner > .item {
+.carousel-inner .item {
 	max-height: 600px !important;
 }
 
