@@ -1309,7 +1309,7 @@ footer{
 }
 
 .carousel-inner .item {
-	max-height: 600px !important;
+	max-height: 500px !important;
 }
 
 @media screen and (max-width: 1095px) {
