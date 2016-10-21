@@ -12,6 +12,9 @@
     <link href="css/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="js/json2.js"></script>
+    <script src="js/i10n.js"></script>
+    <script src="js/localizations.js"></script>
   </head>
   <body>
     <div class="header container">
@@ -32,16 +35,16 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img src="img/slide3.jpg" alt="">
-          <div class="carousel-caption">Haga una donacion</div>
+          <img id="slide1" src="images/slide1.jpg" alt="">
+          <div id="donacion" class="carousel-caption">Haga una donacion</div>
         </div>
         <div class="item">
-            <img src="img/slide1.jpg" alt="">
-            <div class="carousel-caption">Vuelvase un donador</div>
+            <img id="slide2" src="images/slide2.jpg" alt="">
+            <div id="donador" class="carousel-caption">Vuelvase un donador</div>
         </div>
         <div class="item">
-            <img src="img/slide2.jpg" alt="">
-            <div class="carousel-caption">Sea un voluntario</div>
+            <img id="slide3" src="images/slide3.jpg" alt="">
+            <div id="voluntario" class="carousel-caption">Sea un voluntario</div>
         </div>
       </div>
       <!-- Controls -->
@@ -57,15 +60,15 @@
     <footer id="footer">
       <div class="footer-content container">
         <div class="footer-adress text-center col-xs-12 col-sm-4 col-md-4">
-          <h4>Conocimiento para la vida</h4>
+          <h4 id="footer_title">Conocimiento para la vida</h4>
           <ul class="footer-menus">
-            <li>Acerca de /</li>
+            <li id="footer_acerca">Acerca de /</li>
             <li>Unesco /</li><br />
-            <li>Educación /</li>
-            <li>Ciencias /</li>
-            <li>Cultura /</li><br />
-            <li>Mapa del sitio /</li>
-            <li>Contacto</li>
+            <li id="footer_educacion">Educación /</li>
+            <li id="footer_ciencias">Ciencias /</li>
+            <li id="footer_cultura">Cultura /</li><br />
+            <li id="footer_sitemap">Mapa del sitio /</li>
+            <li id="footer_contacto">Contacto</li>
           </ul>
         </div>
         <div class="footer-second col-xs-12 col-sm-4 col-md-4">
@@ -82,7 +85,7 @@
           <div class="footer-third col-xs-12 col-sm-4 col-md-4">
             <div class="copyright">
               <span>Copyright 2016 Unesco</span><br>
-              <span>Todos los derechos reservados</span>
+              <span id="derechos">Todos los derechos reservados</span>
             </div>
           </div>
       </div>
@@ -95,16 +98,5 @@
     <script src="js/jquery.bxslider.min.js"></script>
     <script src="js/w3data.js"></script>
     <script src="js/main.js"></script>
-    <script>
-      w3IncludeHTML();
-      $('.testimonials-slider').bxSlider({
-              slideWidth: 800,
-              minSlides: 1,
-              maxSlides: 1,
-              slideMargin: 32,
-              auto: true,
-              autoControls: true
-              });
-    </script>
   </body>
 </html>
