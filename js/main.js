@@ -67,7 +67,6 @@ $(window).load(function(){
   var slide1 = $("#slide1"),
       slide2 = $("#slide2"),
       slide3 = $("#slide3");
-      console.log(String.locale);
   switch(String.locale) {
     case 'en-US':
       slide1.attr("src", "images/en_donador.jpg");
