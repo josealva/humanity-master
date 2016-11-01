@@ -67,7 +67,6 @@ $(window).load(function(){
   var slide1 = $("#slide1"),
       slide2 = $("#slide2"),
       slide3 = $("#slide3");
-      console.log(String.locale);
   switch(String.locale) {
     case 'en-US':
       slide1.attr("src", "images/en_donador.jpg");
@@ -75,14 +74,14 @@ $(window).load(function(){
       slide3.attr("src", "images/en_voluntario.jpg");
       break;
     case 'de':
-      slide1.attr("src", "../images/de_donador.jpg");
-      slide2.attr("src", "../images/de_donacion.jpg");
-      slide3.attr("src", "../images/de_voluntario.jpg");
+      slide1.attr("src", "images/de_donador.jpg");
+      slide2.attr("src", "images/de_donacion.jpg");
+      slide3.attr("src", "images/de_voluntario.jpg");
       break;
     default:
-      slide1.attr("src", "../images/es_donador.jpg");
-      slide2.attr("src", "../images/es_donacion.jpg");
-      slide3.attr("src", "../images/es_voluntario.jpg");
+      slide1.attr("src", "images/es_donador.jpg");
+      slide2.attr("src", "images/es_donacion.jpg");
+      slide3.attr("src", "images/es_voluntario.jpg");
       break;
 }
 

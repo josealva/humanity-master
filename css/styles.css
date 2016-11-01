@@ -1048,7 +1048,7 @@ a:hover {
 .nav-tabs>li>a,.nav-tabs>li.active>a,.nav-tabs>li>a:hover , .nav-tabs>li>a:focus {
 	background: rgb(108, 168, 209);
 	padding: 11px;
-	width: 240px;
+	width: 200px;
 	text-align: center;
 	font-weight: bold;
 	color: white;
@@ -1306,6 +1306,10 @@ footer{
 }
 .th-caption h2 {
 	font-size: 50px;
+}
+
+.carousel-inner .item {
+	max-height: 500px !important;
 }
 
 @media screen and (max-width: 1095px) {
