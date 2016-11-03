@@ -105,7 +105,7 @@ $(window).load(function(){
 			$('body')
 			 .append($('<script>')
 			 .attr('type', 'text/javascript')
-			 .attr('src', "http://s7.addthis.com/js/250/addthis_widget.js#"));
+			 .attr('src', "https://s7.addthis.com/js/250/addthis_widget.js#"));
 		 }, 1000);
 	 }
 
